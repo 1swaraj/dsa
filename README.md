@@ -1,13 +1,13 @@
 # Commonly Used Algorithms in Golang
 
-###This repository contains some commonly used algorithms in golang
+### This repository contains some commonly used algorithms in golang
 
-#####Graphs
-        Dijkshtras 
-        Kruskals
-        Prims
+#### Graphs
+        1.  Dijkshtras 
+        2.  Kruskals
+        3.  Prims
 
-#####Sorting
-        HeapSort
-        QuickSort
-        MergeSort
+#### Sorting
+        1. HeapSort
+        2. QuickSort
+        3. MergeSort
