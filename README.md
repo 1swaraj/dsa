@@ -11,3 +11,9 @@
         HeapSort
         QuickSort
         MergeSort
+
+#####Knapsack
+        0/1 Knapsack -- Recursive
+        0/1 Knapsack -- Memoization
+        0/1 Knapsack -- Unbounded
+        Fractional Knapsack -- Greedy (Not DP)
