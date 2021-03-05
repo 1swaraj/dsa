@@ -15,6 +15,9 @@ func main() {
 	fmt.Println(max)
 	fmt.Println(time2.Now().Nanosecond()-time)
 	time = time2.Now().Nanosecond()
+	fmt.Println(topdown(values, weight, w, len(values)))
+	fmt.Println(time2.Now().Nanosecond()-time)
+	time = time2.Now().Nanosecond()
 	dp = make([][]int,n+1)
 	for i:=0;i<n+1;i++{
 		dp[i] = make([]int,w+1)
