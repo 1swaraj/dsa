@@ -5,8 +5,8 @@ import (
 )
 
 func unbounded(weight []int, w, n int) int {
-	if n == 0 || w <= 0 {
-		return w
+	if w <= 0 || n<0 {
+		return 0
 	}
 	if weight[n] <= w {
 		return int(math.Max(float64(weight[n]+unbounded(weight, w-weight[n], n)), float64(unbounded(weight, w, n-1))))

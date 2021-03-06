@@ -28,11 +28,11 @@ func main() {
 	fmt.Println(memoization(values, weight, w, n))
 	fmt.Println(time2.Now().Nanosecond()-time)
 
-	values = []int{3,4,4,4,8}
+	val := []int{3,4,4,4,8}
 	w = 9
-	n = len(values) - 1
+	n = len(val) - 1
 	time = time2.Now().Nanosecond()
-	max = unbounded(values, w, n)
+	max = unbounded(val, w, n)
 	fmt.Printf("Ans :- %d\n",max)
 	fmt.Println(time2.Now().Nanosecond()-time)
 }
