@@ -23,3 +23,7 @@
             a. Recursive
             b. Memoized
             c. Top-down
+        2. Equal Sum Partition
+            a. Recursive
+            b. Memoized
+            c. Top-down
