@@ -75,4 +75,33 @@ func main() {
 	fmt.Printf("Time :- ")
 	fmt.Println(time2.Now().Nanosecond() - time)
 
+	fmt.Println("\nCount of Subsets with a Given Sum\n")
+	weight = []int{3, 7, 8, 9, 1, 2, 5, 4}
+	n = len(weight)
+	w = 11
+
+	fmt.Println("Count of Subsets with a Given Sum Recursive")
+	time = time2.Now().Nanosecond()
+	fmt.Println(countsubsetswithsum(weight, w, n))
+	fmt.Printf("Time :- ")
+	fmt.Println(time2.Now().Nanosecond() - time)
+
+	fmt.Println("Count of Subsets with a Given Sum Memoized")
+	dp = make([][]int, n+1)
+	for i := 0; i < n+1; i++ {
+		dp[i] = make([]int, w+1)
+		for j := 0; j < w+1; j++ {
+			dp[i][j] = -1
+		}
+	}
+	time = time2.Now().Nanosecond()
+	fmt.Println(countsubsetswithsum_memoized(weight, w, n))
+	fmt.Printf("Time :- ")
+	fmt.Println(time2.Now().Nanosecond() - time)
+
+	fmt.Println("Count of Subsets with a Given Sum Top Down")
+	time = time2.Now().Nanosecond()
+	fmt.Println(countsubsetswithsum_topdown(weight, w, n))
+	fmt.Printf("Time :- ")
+	fmt.Println(time2.Now().Nanosecond() - time)
 }
