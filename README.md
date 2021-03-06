@@ -17,3 +17,9 @@
         2. 0/1 Knapsack -- Memoization
         3. 0/1 Knapsack -- Unbounded
         4. Fractional Knapsack -- Greedy (Not DP)
+
+#### Knapsack Variation
+        1. Subset Sum
+            a. Recursive
+            b. Memoized
+            c. Top-down
