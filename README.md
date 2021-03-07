@@ -37,4 +37,5 @@
             a. Top-down
         6. Target Sum
             a. Top-down
-            
+        7. Minimum Cost to Cut a Stick
+            (Problem :- https://leetcode.com/contest/weekly-contest-201/problems/minimum-cost-to-cut-a-stick/ )
