@@ -106,10 +106,19 @@ func main() {
 	fmt.Println(time2.Now().Nanosecond() - time)
 
 	fmt.Println("\nMininum Subsets Sum Difference")
-	weight = []int{7,6,11,1}
+	weight = []int{7, 6, 11, 1}
 	n = len(weight)
 	time = time2.Now().Nanosecond()
 	fmt.Println(minsubsetsumdiff(weight, n))
+	fmt.Printf("Time :- ")
+	fmt.Println(time2.Now().Nanosecond() - time)
+
+	fmt.Println("\nCount the number of subset with a given difference")
+	weight = []int{1, 2, 3, 3, 2}
+	n = len(weight)
+	d := 1
+	time = time2.Now().Nanosecond()
+	fmt.Println(countsubsetswithdiff(weight, d, n))
 	fmt.Printf("Time :- ")
 	fmt.Println(time2.Now().Nanosecond() - time)
 

@@ -28,8 +28,13 @@
             b. Memoized
             c. Top-down
         3. Count of Subsets Sum with Given Sum
-           a. Recursive
-           b. Memoized
-           c. Top-down
+            a. Recursive
+            b. Memoized
+            c. Top-down
         4. Partition into subsets such that the difference is minimum
             a. Top-down
+        5. Count the number of subset with a given difference 
+            a. Top-down
+        6. Target Sum
+            a. Top-down
+            
