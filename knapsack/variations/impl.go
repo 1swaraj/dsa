@@ -134,4 +134,9 @@ func main() {
 	fmt.Printf("Time :- ")
 	fmt.Println(time2.Now().Nanosecond() - time)
 
+	fmt.Println("\nMinimum Cost to Cut a Stick")
+	time = time2.Now().Nanosecond()
+	fmt.Println(minCost(7, []int{1, 3, 4, 5}))
+	fmt.Printf("Time :- ")
+	fmt.Println(time2.Now().Nanosecond() - time)
 }
