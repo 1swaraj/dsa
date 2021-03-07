@@ -122,4 +122,16 @@ func main() {
 	fmt.Printf("Time :- ")
 	fmt.Println(time2.Now().Nanosecond() - time)
 
+	fmt.Println("\nTarget Sum")
+	weight = []int{1,2,7,9,2}
+	/*
+	9,7 = 16
+	 */
+	n = len(weight)
+	S := 17
+	time = time2.Now().Nanosecond()
+	fmt.Println(findTargetSumWays(weight, S))
+	fmt.Printf("Time :- ")
+	fmt.Println(time2.Now().Nanosecond() - time)
+
 }
