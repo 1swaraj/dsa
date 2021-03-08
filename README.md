@@ -39,3 +39,8 @@
             a. Top-down
         7. Minimum Cost to Cut a Stick
             (Problem :- https://leetcode.com/contest/weekly-contest-201/problems/minimum-cost-to-cut-a-stick/ )
+
+#### LCS
+        1. Longest Common Subsequence
+        2. Longest Common Substring
+        3. Printing the Longest Common Substring
