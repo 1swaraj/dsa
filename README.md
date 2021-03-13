@@ -8,9 +8,14 @@
         3.  Prims
 
 #### Sorting
-        1. HeapSort
-        2. QuickSort
-        3. MergeSort
+        1. BubbleSort
+        2. SelectionSort
+        3. InsertionSort
+        4. HeapSort
+            - Library Implementation
+            - Custom Implementation
+        5. QuickSort
+        6. MergeSort
 
 #### Knapsack
         1. 0/1 Knapsack -- Recursive
