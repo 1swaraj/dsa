@@ -27,6 +27,10 @@
         1. Push
         2. Pop
 
+#### Queue
+        1. Enqueue
+        2. Dequeue
+
 #### Graphs
         1.  Dijkshtras 
         2.  Kruskals
