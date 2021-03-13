@@ -9,7 +9,7 @@ type Item struct {
 
 type PQ []Item
 
-var front, rear, capacity int
+var front, rear, capacity,count int
 
 func (pq *PQ) Enqueue(val, priority int) {
 	p := *pq
@@ -17,8 +17,10 @@ func (pq *PQ) Enqueue(val, priority int) {
 		Val:      val,
 		Priority: priority,
 	}
+	count ++
 	p.Heapify(rear)
 	rear = (rear + 1) % capacity
+
 }
 
 func (pq *PQ) Heapify(i int) {
@@ -37,9 +39,28 @@ func (pq *PQ) Heapify(i int) {
 
 func (pq *PQ) Dequeue() Item {
 	p := *pq
-	data := p[front]
+	count --
+	p[0],p[count] = p[count],p[0]
+	p.HeapifyDel(0)
 	front = (front + 1) % capacity
-	return data
+	return p[count]
+}
+
+func (pq *PQ) HeapifyDel(i int) {
+	p := *pq
+	largest := i
+	lchild := 2*i +1
+	rchild := 2*i +2
+	if lchild < count && p[lchild].Priority>p[largest].Priority {
+		largest = lchild
+	}
+	if rchild < count && p[rchild].Priority > p[lchild].Priority {
+		largest = rchild
+	}
+	if largest != i {
+		p[largest],p[i] = p[i],p[largest]
+		p.HeapifyDel(largest)
+	}
 }
 
 func main() {
@@ -60,4 +81,11 @@ func main() {
 	fmt.Println(pq.Dequeue())
 	fmt.Println(pq.Dequeue())
 	fmt.Println(pq.Dequeue())
+	fmt.Println(pq.Dequeue())
+	fmt.Println(pq.Dequeue())
+	pq.Enqueue(9, 5)
+	pq.Enqueue(5, 7)
+	fmt.Println(pq.Dequeue())
+	fmt.Println(pq)
+
 }
