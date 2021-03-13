@@ -30,6 +30,7 @@
 #### Queue
         1. Enqueue
         2. Dequeue
+        3. Priority Queue Using Heap
 
 #### Graphs
         1.  Dijkshtras 
