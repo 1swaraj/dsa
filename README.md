@@ -23,6 +23,10 @@
         8. Search
         9. Reversing LinkedList
 
+#### Stack
+        1. Push
+        2. Pop
+
 #### Graphs
         1.  Dijkshtras 
         2.  Kruskals
