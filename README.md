@@ -2,11 +2,6 @@
 
 ### This repository contains some commonly used algorithms in golang
 
-#### Graphs
-        1.  Dijkshtras 
-        2.  Kruskals
-        3.  Prims
-
 #### Sorting
         1. BubbleSort
         2. SelectionSort
@@ -16,6 +11,21 @@
             - Custom Implementation
         5. QuickSort
         6. MergeSort
+
+#### LinkedList
+        1. InsertAtEnd
+        2. InsertAtBeginning
+        3. InsertAtPos
+        4. DeleteAtEnd
+        5. DeleteAtBeginning
+        6. DeleteAtPos
+        7. Traversal
+        8. Search
+
+#### Graphs
+        1.  Dijkshtras 
+        2.  Kruskals
+        3.  Prims
 
 #### Knapsack
         1. 0/1 Knapsack -- Recursive
