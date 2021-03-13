@@ -1,6 +1,8 @@
 package main
 
-import "fmt"
+import (
+	"fmt"
+)
 
 type Stack []int
 
@@ -19,22 +21,22 @@ func main() {
 		fmt.Println(err.Error())
 	}
 	stack.print()
-	val,_ := stack.pop()
+	val, _ := stack.pop()
 	fmt.Println(val)
-	val,_ = stack.pop()
+	val, _ = stack.pop()
 	fmt.Println(val)
-	val,_ = stack.pop()
+	val, _ = stack.pop()
 	fmt.Println(val)
-	val,_ = stack.pop()
+	val, _ = stack.pop()
 	fmt.Println(val)
-	val,_ = stack.pop()
+	val, _ = stack.pop()
 	fmt.Println(val)
-	val,err = stack.pop()
+	val, err = stack.pop()
 	fmt.Println(err.Error())
-
 	stack.push(9)
 	stack.push(8)
 	stack.print()
+
 }
 
 func (stack *Stack) push(val int) (err error) {
