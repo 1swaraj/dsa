@@ -68,4 +68,10 @@ func main() {
 	linkedList.Reverse()
 	fmt.Println("After Reversing")
 	linkedList.Print()
+
+
+	// Add a loop
+	linkedList.Head.Next.Next.Next = linkedList.Head
+	fmt.Printf("Detecting Loop :- ")
+	fmt.Println(linkedList.DetectLoop())
 }

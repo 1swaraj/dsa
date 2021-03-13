@@ -57,6 +57,19 @@ func (l *LinkedList) Print() {
 	fmt.Println()
 }
 
+func (l *LinkedList) DetectLoop() bool {
+	head := l.Head
+	for head != nil {
+		fmt.Printf("%d -> ", head.Val)
+		if head.Visited==true {
+			return true
+		}
+		head.Visited = true
+		head = head.Next
+	}
+	return false
+}
+
 func (l *LinkedList) Search(val int) bool {
 	head := l.Head
 	for head != nil {

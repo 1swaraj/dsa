@@ -22,6 +22,7 @@
         7. Traversal
         8. Search
         9. Reversing LinkedList
+        10. Detecting Loop
 
 #### Stack
         1. Push
