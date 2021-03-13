@@ -67,3 +67,15 @@ func (l *LinkedList) Search(val int) bool {
 	}
 	return false
 }
+
+func (l *LinkedList) Reverse() {
+	head := l.Head
+	var prev *Node
+	for head !=nil {
+		next := head.Next
+		head.Next = prev
+		prev = head
+		head = next
+	}
+	l.Head = prev
+}

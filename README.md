@@ -21,6 +21,7 @@
         6. DeleteAtPos
         7. Traversal
         8. Search
+        9. Reversing LinkedList
 
 #### Graphs
         1.  Dijkshtras 

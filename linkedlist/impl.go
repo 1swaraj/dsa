@@ -65,4 +65,7 @@ func main() {
 	fmt.Print("Searching for Value 3 :- ")
 	fmt.Println(res)
 
+	linkedList.Reverse()
+	fmt.Println("After Reversing")
+	linkedList.Print()
 }
