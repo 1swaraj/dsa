@@ -36,5 +36,4 @@ func main() {
 	fmt.Println("\nDiameter :- ")
 	_ = diameter(root)
 	fmt.Println(res)
-
 }
