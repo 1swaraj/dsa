@@ -24,6 +24,12 @@
         9. Reversing LinkedList
         10. Detecting Loop
 
+#### Tree
+        1. BFS
+        2. DFS
+        3. AVL Trees (https://www.geeksforgeeks.org/avl-tree-set-1-insertion/)
+        4. Diameter of a Tree (https://www.geeksforgeeks.org/diameter-of-a-binary-tree-in-on-a-new-method/)
+
 #### Stack
         1. Push
         2. Pop
