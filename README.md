@@ -41,7 +41,7 @@
 
 #### Graphs
         1.  Dijkshtras 
-        2.  Kruskals
+        2.  Floyd Warshall
         3.  Prims
 
 #### Knapsack
