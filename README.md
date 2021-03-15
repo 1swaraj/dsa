@@ -45,13 +45,9 @@
         3.  Prims
 
 #### Knapsack
-        1. 0/1 Knapsack -- Recursive
-        2. 0/1 Knapsack -- Memoization
-        3. 0/1 Knapsack -- Unbounded
-        4. Fractional Knapsack -- Greedy (Not DP)
-
-#### Knapsack Variation
-        1. Subset Sum
+        https://www.geeksforgeeks.org/0-1-knapsack-problem-dp-10/
+        By Recursive Method, Memoization & Top-Down
+        1. Subset Sum (https://www.geeksforgeeks.org/subset-sum-problem-dp-25/)
             a. Recursive
             b. Memoized
             c. Top-down
